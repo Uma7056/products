@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <!-- Sidebar Section -->
+    <div class="col-md-3">
+      <nav class="sidebar">
+        <h2>My Store</h2>
+        <ul>
+          <li><a routerLink="/user/view">View Products</a></li>
+          <li><a routerLink="/user/update">Add Products</a></li>
+          <li><a routerLink="/user/manage">Manage Products</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="col-md-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="container">
+    <h2>Product Management</h2>
+    <div class="row">
+      <!-- Form Section -->
+      <div class="col-md-6">
+        <form action="" [formGroup]="addForm" (ngSubmit)="addnow()">
+          <div class="form-group mb-3">
+            <label for="productId" class="form-labe1">Product ID</label>
+            <input type="text" class="form-control" id="productId" formControlName="productId">
+          </div>
+          <div class="form-group mb-3">
+            <label for="productName" class="form-labe1">Product Name</label>
+            <input type="text" class="form-control" id="productName" formControlName="productName">
+          </div>
+          <div class="form-group mb-3">
+            <label for="productType" class="form-labe1">Product Type</label>
+            <input type="text" class="form-control" id="productType" formControlName="productType">
+          </div>
+          <div class="form-group text-center">
+            <button class="btn btn-success w-100" type="submit">Add</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- View Products Section -->
+      <div class="col-md-6">
+        <app-viewproducts></app-viewproducts>
+      </div>
+    </div>
+  </div>

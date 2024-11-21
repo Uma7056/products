@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form action="" [formGroup]="loginform" (ngSubmit)="checklogin()">
+                <div class="form-group">
+                    <label for="" class="form-label" >UserName:</label>
+                    <input type="text" class="form-control" formControlName="username">
+                </div>
+                <div class="form-group">
+                    <label for="" class="form-label" >password:</label>
+                    <input type="text" class="form-control" formControlName="password">
+                </div>
+                <div class="form-group p-2">
+                    <button class="btn btn-success" type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

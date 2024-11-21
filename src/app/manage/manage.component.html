@@ -1,0 +1,22 @@
+<div class="table-container">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Product Name</th>
+          <th>Product Type</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let p of product">
+          <td>{{p.productId}}</td>
+          <td>{{p.productName}}</td>
+          <td>{{p.productType}}</td>
+          <td>
+            <button class="btn btn-danger" (click)="deletenow(p.productId)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>

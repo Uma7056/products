@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa; /* Light gray background for classic feel */
+    font-family: 'Arial', sans-serif;
+  }
+  .container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff; /* White container for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .form-labe1 {
+    font-weight: bold;
+    color: #343a40; /* Classic dark gray for text */
+  }
+  .form-control {
+    border: 1px solid #ced4da; /* Soft border color */
+    border-radius: 4px;
+  }
+  .btn-success {
+    background-color: #28a745; /* Bootstrap's green */
+    border: none;
+  }
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  .row > .col-md-6 {
+    padding: 15px;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #495057;
+    text-align: center;
+  }
+  app-viewproducts {
+    display: block;
+    padding: 10px;
+    background-color: #e9ecef; /* Light gray for the product viewer */
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+  }
